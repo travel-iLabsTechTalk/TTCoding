@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00BAC4C36993FBBCE2B34299 /* libPods-TTCoding.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23218A25C2C1BC05F2E6222F /* libPods-TTCoding.a */; };
 		ED39EF9A1E8A64C100CDF0BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF991E8A64C100CDF0BF /* main.m */; };
 		ED39EF9D1E8A64C100CDF0BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF9C1E8A64C100CDF0BF /* AppDelegate.m */; };
 		ED39EFA01E8A64C100CDF0BF /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EF9F1E8A64C100CDF0BF /* FirstViewController.m */; };
@@ -14,9 +15,14 @@
 		ED39EFA61E8A64C100CDF0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFA41E8A64C100CDF0BF /* Main.storyboard */; };
 		ED39EFA81E8A64C100CDF0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFA71E8A64C100CDF0BF /* Assets.xcassets */; };
 		ED39EFAB1E8A64C100CDF0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFA91E8A64C100CDF0BF /* LaunchScreen.storyboard */; };
+		ED39EFB61E8A657A00CDF0BF /* TTCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFB51E8A657A00CDF0BF /* TTCodingViewController.m */; };
+		ED39EFB81E8A659700CDF0BF /* TTCoding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFB71E8A659700CDF0BF /* TTCoding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CAAC6C25AD37BFE8034BCC1 /* Pods-TTCoding.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCoding.release.xcconfig"; path = "Pods/Target Support Files/Pods-TTCoding/Pods-TTCoding.release.xcconfig"; sourceTree = "<group>"; };
+		23218A25C2C1BC05F2E6222F /* libPods-TTCoding.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TTCoding.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A004AB5B7766FD8AA359FAA6 /* Pods-TTCoding.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTCoding.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TTCoding/Pods-TTCoding.debug.xcconfig"; sourceTree = "<group>"; };
 		ED39EF951E8A64C100CDF0BF /* TTCoding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTCoding.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED39EF991E8A64C100CDF0BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED39EF9B1E8A64C100CDF0BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +35,9 @@
 		ED39EFA71E8A64C100CDF0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED39EFAA1E8A64C100CDF0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED39EFAC1E8A64C100CDF0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED39EFB41E8A657A00CDF0BF /* TTCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCodingViewController.h; sourceTree = "<group>"; };
+		ED39EFB51E8A657A00CDF0BF /* TTCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCodingViewController.m; sourceTree = "<group>"; };
+		ED39EFB71E8A659700CDF0BF /* TTCoding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TTCoding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +45,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00BAC4C36993FBBCE2B34299 /* libPods-TTCoding.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BEFB60FA0AAE217F0BD5FDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A004AB5B7766FD8AA359FAA6 /* Pods-TTCoding.debug.xcconfig */,
+				1CAAC6C25AD37BFE8034BCC1 /* Pods-TTCoding.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED39EF8C1E8A64C100CDF0BF = {
 			isa = PBXGroup;
 			children = (
 				ED39EF971E8A64C100CDF0BF /* TTCoding */,
 				ED39EF961E8A64C100CDF0BF /* Products */,
+				2BEFB60FA0AAE217F0BD5FDE /* Pods */,
+				F1EE6AA5723F182002FE5056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +82,7 @@
 		ED39EF971E8A64C100CDF0BF /* TTCoding */ = {
 			isa = PBXGroup;
 			children = (
+				ED39EFB21E8A657A00CDF0BF /* TTCoding */,
 				ED39EF9B1E8A64C100CDF0BF /* AppDelegate.h */,
 				ED39EF9C1E8A64C100CDF0BF /* AppDelegate.m */,
 				ED39EF9E1E8A64C100CDF0BF /* FirstViewController.h */,
@@ -84,6 +106,32 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED39EFB21E8A657A00CDF0BF /* TTCoding */ = {
+			isa = PBXGroup;
+			children = (
+				ED39EFB31E8A657A00CDF0BF /* Targets */,
+				ED39EFB41E8A657A00CDF0BF /* TTCodingViewController.h */,
+				ED39EFB51E8A657A00CDF0BF /* TTCodingViewController.m */,
+				ED39EFB71E8A659700CDF0BF /* TTCoding.storyboard */,
+			);
+			path = TTCoding;
+			sourceTree = "<group>";
+		};
+		ED39EFB31E8A657A00CDF0BF /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		F1EE6AA5723F182002FE5056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23218A25C2C1BC05F2E6222F /* libPods-TTCoding.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED39EFAF1E8A64C100CDF0BF /* Build configuration list for PBXNativeTarget "TTCoding" */;
 			buildPhases = (
+				DB78BEAAD27EDF07E83B9224 /* [CP] Check Pods Manifest.lock */,
 				ED39EF911E8A64C100CDF0BF /* Sources */,
 				ED39EF921E8A64C100CDF0BF /* Frameworks */,
 				ED39EF931E8A64C100CDF0BF /* Resources */,
+				347514E27F76BDBA57BE8EFA /* [CP] Embed Pods Frameworks */,
+				8260CB6A989E8AECDE2B6D5D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,11 +196,60 @@
 			files = (
 				ED39EFAB1E8A64C100CDF0BF /* LaunchScreen.storyboard in Resources */,
 				ED39EFA81E8A64C100CDF0BF /* Assets.xcassets in Resources */,
+				ED39EFB81E8A659700CDF0BF /* TTCoding.storyboard in Resources */,
 				ED39EFA61E8A64C100CDF0BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		347514E27F76BDBA57BE8EFA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCoding/Pods-TTCoding-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8260CB6A989E8AECDE2B6D5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TTCoding/Pods-TTCoding-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB78BEAAD27EDF07E83B9224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED39EF911E8A64C100CDF0BF /* Sources */ = {
@@ -157,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED39EFA31E8A64C100CDF0BF /* SecondViewController.m in Sources */,
+				ED39EFB61E8A657A00CDF0BF /* TTCodingViewController.m in Sources */,
 				ED39EF9D1E8A64C100CDF0BF /* AppDelegate.m in Sources */,
 				ED39EFA01E8A64C100CDF0BF /* FirstViewController.m in Sources */,
 				ED39EF9A1E8A64C100CDF0BF /* main.m in Sources */,
@@ -277,6 +378,7 @@
 		};
 		ED39EFB01E8A64C100CDF0BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A004AB5B7766FD8AA359FAA6 /* Pods-TTCoding.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
@@ -289,6 +391,7 @@
 		};
 		ED39EFB11E8A64C100CDF0BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CAAC6C25AD37BFE8034BCC1 /* Pods-TTCoding.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZWR8MWYL3V;
