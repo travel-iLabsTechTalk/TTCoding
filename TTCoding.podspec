@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TTCoding"
-  s.version      = "1"
+  s.version      = "2"
   s.summary      = "TTCoding."
 
   # This description is used to generate tags and improve search results.
@@ -103,7 +103,7 @@ Pod::Spec.new do |s|
   #
 
   # s.resource  = "icon.png"
-  s.resources = "TTLogin/TTLogin/**/*.storyboard"
+  s.resources = "TTCoding/TTCoding/**/*.storyboard"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
