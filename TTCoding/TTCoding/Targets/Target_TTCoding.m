@@ -11,7 +11,7 @@
 
 @implementation Target_TTCoding
 
-- (UIViewController *)Action_viewController {
+- (UIViewController *)Action_viewController:(NSDictionary *)params {
   TTCodingViewController *codingVC = [[UIStoryboard storyboardWithName:@"TTCoding" bundle:nil] instantiateViewControllerWithIdentifier:@"TTCodingViewController"];
   return codingVC;
 }
