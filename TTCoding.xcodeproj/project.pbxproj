@@ -17,6 +17,7 @@
 		ED39EFAB1E8A64C100CDF0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFA91E8A64C100CDF0BF /* LaunchScreen.storyboard */; };
 		ED39EFB61E8A657A00CDF0BF /* TTCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED39EFB51E8A657A00CDF0BF /* TTCodingViewController.m */; };
 		ED39EFB81E8A659700CDF0BF /* TTCoding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED39EFB71E8A659700CDF0BF /* TTCoding.storyboard */; };
+		ED7A205A1E8A912000576F89 /* Target_TTCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = ED7A20591E8A912000576F89 /* Target_TTCoding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		ED39EFB41E8A657A00CDF0BF /* TTCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCodingViewController.h; sourceTree = "<group>"; };
 		ED39EFB51E8A657A00CDF0BF /* TTCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCodingViewController.m; sourceTree = "<group>"; };
 		ED39EFB71E8A659700CDF0BF /* TTCoding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TTCoding.storyboard; sourceTree = "<group>"; };
+		ED7A20581E8A912000576F89 /* Target_TTCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TTCoding.h; sourceTree = "<group>"; };
+		ED7A20591E8A912000576F89 /* Target_TTCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TTCoding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 		ED39EFB31E8A657A00CDF0BF /* Targets */ = {
 			isa = PBXGroup;
 			children = (
+				ED7A20581E8A912000576F89 /* Target_TTCoding.h */,
+				ED7A20591E8A912000576F89 /* Target_TTCoding.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -258,6 +263,7 @@
 			files = (
 				ED39EFA31E8A64C100CDF0BF /* SecondViewController.m in Sources */,
 				ED39EFB61E8A657A00CDF0BF /* TTCodingViewController.m in Sources */,
+				ED7A205A1E8A912000576F89 /* Target_TTCoding.m in Sources */,
 				ED39EF9D1E8A64C100CDF0BF /* AppDelegate.m in Sources */,
 				ED39EFA01E8A64C100CDF0BF /* FirstViewController.m in Sources */,
 				ED39EF9A1E8A64C100CDF0BF /* main.m in Sources */,
@@ -421,6 +427,7 @@
 				ED39EFB11E8A64C100CDF0BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
